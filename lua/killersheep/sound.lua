@@ -7,6 +7,7 @@ local PROVIDERS = {
   { exe = "afplay", cmd = { "afplay" }, ext = ".mp3" },
   { exe = "paplay", cmd = { "paplay" }, ext = ".ogg" },
   { exe = "cvlc", cmd = { "cvlc", "--play-and-exit" }, ext = ".ogg" },
+  { exe = "ffplay", cmd = { "ffplay", "-nodisp", "-autoexit" }, ext = ".mp3" },
 }
 
 local sound_provider
